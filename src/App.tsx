@@ -24,16 +24,10 @@ function App({}: AppProps) {
           Page has been open for <code>{count}</code> seconds.
         </p>
         <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <button className="btn btn-primary">DaisyUI Button</button>
         </p>
       </header>
+    
     </div>
   );
 }
