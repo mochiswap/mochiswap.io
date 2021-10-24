@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Navbar from './components/Navbar';
+
+import Home from './views/Home';
+
 interface AppProps {}
 
 function App({}: AppProps) {
@@ -14,8 +18,8 @@ function App({}: AppProps) {
   }, [count, setCount]);
   // Return the App component.
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
@@ -26,7 +30,8 @@ function App({}: AppProps) {
         <p>
           <button className="btn btn-primary">DaisyUI Button</button>
         </p>
-      </header>
+      </header> */}
+      <Home />
     
     </div>
   );
