@@ -35,7 +35,7 @@ export default function Hero() {
                 </span>
               </h1>
               <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl pt-4">
-                Mochiswap is an experimental, open-source defi platform freaturing an AMM, yield farms, single token auto-compounding vaults and more!
+                Mochiswap is an experimental, open-source defi platform featuring an AMM, yield farms, single token auto-compounding vaults and more!
               </p>
               <div className="mt-10 sm:mt-12">
                 <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
