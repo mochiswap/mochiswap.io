@@ -95,6 +95,7 @@ export default function Navbar() {
                 </Popover.Button>
               </div>
             </div>
+            
             <div className="pt-5 pb-6">
               <div className="px-2 space-y-1">
                 {navigation.map((item) => (
@@ -107,24 +108,6 @@ export default function Navbar() {
                   </a>
                 ))}
               </div>
-             
-              {/* <div className="mt-6 px-5">
-                <a
-                  href="https://bsc.mochiswap.io"
-                  className="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-medium hover:from-yellow-600 hover:to-yellow-700"
-                >
-                  BSC
-                </a>
-              </div>
-
-              <div className="mt-6 px-5">
-                <a
-                  href="https://harmony.mochiswap.io"
-                  className="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-teal-600 text-white font-medium hover:from-teal-600 hover:to-teal-700"
-                >
-                  Harmony
-                </a>
-              </div> */}
 
             </div>
           </div>
