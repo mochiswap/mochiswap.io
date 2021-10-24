@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { ChevronRightIcon, ExternalLinkIcon } from '@heroicons/react/solid'
 
 
-const steez = {
-  width: "600px",
-  height: "600px",
-};
+// const steez = {
+//   width: "600px",
+//   height: "600px",
+// };
 
 export default function Hero() {
   
@@ -78,13 +78,13 @@ export default function Hero() {
             <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0 content-center">
               {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
               <motion.img
-                className="sm:ml-20 w-full"
+                className="sm:ml-20 w-full p-6 mb-8 sm:pt-16"
                 src="images/mochi400x400.png"
                 alt=""
-                style={steez}
+                // style={steez}
                 animate={{
                   delay: 2,
-                  scale: [1, 3, 1],
+                  scale: [1, 3, 1.4],
                   opacity: [1, 0.4, 1],
                   rotate: [0, 720, 1440],
                 }}
