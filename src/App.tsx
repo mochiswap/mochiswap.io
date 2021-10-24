@@ -18,21 +18,8 @@ function App({}: AppProps) {
   }, [count, setCount]);
   // Return the App component.
   return (
-    <div>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <p>
-          Page has been open for <code>{count}</code> seconds.
-        </p>
-        <p>
-          <button className="btn btn-primary">DaisyUI Button</button>
-        </p>
-      </header> */}
+    <div className="bg-gray-900">
       <Home />
-    
     </div>
   );
 }

@@ -4,18 +4,19 @@ import { ChevronRightIcon, ExternalLinkIcon } from '@heroicons/react/solid'
 import Navbar from '../../components/Navbar';
 import Hero from './components/Hero';
 import Stats from './components/Stats';
+import Footer from '../../components/Footer';
 
 export default function Home() {
   return (
-    <div className="bg-gray-900 h-screen">
-      <div className="relative overflow-hidden bg-red-900">
+    <div className="flex flex-col min-h-screen">
+      <div className="relative overflow-hidden flex-grow">
         <Navbar />
         <main>
           <Hero />
           {/* <Stats /> */}
         </main>
-        {/* <Footer></Footer> */}
       </div>
+      <Footer className="mb-auto"/>
     </div>
   )
 }
