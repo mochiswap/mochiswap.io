@@ -8,10 +8,10 @@ import {
 // import { ChevronRightIcon, ExternalLinkIcon } from '@heroicons/react/solid'
 
 const navigation = [
-  { name: 'BSC', href: '#' },
-  { name: 'Harmony', href: '#' },
-  { name: 'NFTs', href: '#' },
-  { name: 'Future', href: '#' },
+  { name: 'BSC', href: 'https://bsc.mochiswap.io' },
+  { name: 'Harmony', href: 'https://harmony.mochiswap.io' },
+  // { name: 'NFTs', href: 'nft.mochiswap.io' },
+  { name: 'Docs', href: 'https://docs.mochiswap.io' },
 ]
 
 export default function Navbar() {
@@ -25,7 +25,7 @@ export default function Navbar() {
           <div className="flex items-center flex-1">
             <div className="flex items-center justify-between w-full md:w-auto">
               <a href="#">
-                <span className="sr-only">Workflow</span>
+                <span className="sr-only">MochiSwap</span>
                 <img
                   className="h-8 w-auto sm:h-10 rounded-3xl"
                   src="https://s3.us-west-1.amazonaws.com/tokens.mochiswap.io/images/mochi400x400.png"
@@ -53,9 +53,6 @@ export default function Navbar() {
             </div>
           </div>
           <div className="hidden md:flex md:items-center md:space-x-6">
-            {/* <a href="#" className="text-base font-medium text-white hover:text-gray-300">
-              Log in
-            </a> */}
             <a
               href="https://bsc.mochiswap.io"
               className="btn bg-yellow-500 btn-sm"
@@ -67,12 +64,6 @@ export default function Navbar() {
               className="btn bg-cyan-600 btn-sm"
             >
               Harmony
-            </a>
-            <a
-              href="https://docs.mochiswap.io"
-              className="btn btn-primary btn-sm"
-            >
-              Docs
             </a>
           </div>
         </nav>
@@ -87,8 +78,8 @@ export default function Navbar() {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        {/* <Popover.Panel focus className="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
-          <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+        <Popover.Panel focus className="absolute top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
+          <div className="rounded-lg shadow-md bg-gray-800 ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div className="px-5 pt-4 flex items-center justify-between">
               <div>
                 <img
@@ -98,7 +89,7 @@ export default function Navbar() {
                 />
               </div>
               <div className="-mr-2">
-                <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">
+                <Popover.Button className="bg-grey-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">
                   <span className="sr-only">Close menu</span>
                   <XIcon className="h-6 w-6" aria-hidden="true" />
                 </Popover.Button>
@@ -110,31 +101,34 @@ export default function Navbar() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"
+                    className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:bg-gray-50"
                   >
                     {item.name}
                   </a>
                 ))}
               </div>
-              <div className="mt-6 px-5">
+             
+              {/* <div className="mt-6 px-5">
                 <a
-                  href="#"
-                  className="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700"
+                  href="https://bsc.mochiswap.io"
+                  className="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-yellow-500 to-yellow-600 text-white font-medium hover:from-yellow-600 hover:to-yellow-700"
                 >
-                  Start free trial
+                  BSC
                 </a>
               </div>
+
               <div className="mt-6 px-5">
-                <p className="text-center text-base font-medium text-gray-500">
-                  Existing customer?{' '}
-                  <a href="#" className="text-gray-900 hover:underline">
-                    Login
-                  </a>
-                </p>
-              </div>
+                <a
+                  href="https://harmony.mochiswap.io"
+                  className="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-teal-600 text-white font-medium hover:from-teal-600 hover:to-teal-700"
+                >
+                  Harmony
+                </a>
+              </div> */}
+
             </div>
           </div>
-        </Popover.Panel> */}
+        </Popover.Panel>
       </Transition>
     </Popover> 
   )
