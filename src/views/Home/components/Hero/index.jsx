@@ -18,7 +18,7 @@ export default function Hero() {
           <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
             <div className="lg:py-24">
               <a
-                href="#"
+                href="https://discord.gg/zAD9SAT7Ff"
                 className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
               >
                 <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-pink-500 to-pink-600 rounded-full">
