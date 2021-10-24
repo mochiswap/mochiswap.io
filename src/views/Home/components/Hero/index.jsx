@@ -38,39 +38,39 @@ export default function Hero() {
                 Mochiswap is an experimental, open-source defi platform featuring an AMM, yield farms, single token auto-compounding vaults and more!
               </p>
               <div className="mt-10 sm:mt-12">
-                <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
-                  <div className="sm:flex">
-                    {/* <div className="min-w-0 flex-1">
-                      <label htmlFor="email" className="sr-only">
-                        Email address
-                      </label>
-                      <input
-                        id="email"
-                        type="email"
-                        placeholder="Enter your email"
-                        className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
-                      />
-                    </div> */}
-                    <div className="mt-3 sm:mt-0 sm:ml-3">
-                      <a href="https://bsc.mochiswap.io"
-                        type="submit"
-                        className="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-pink-600 to-cyan-600 text-white font-medium hover:from-pink-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
-                      >
-                        Launch BSC DApp
-                      </a>
-                    </div>
-
-                    <div className="mt-3 sm:mt-0 sm:ml-3">
-                      <a href="https://harmony.mochiswap.io"
-                        type="submit"
-                        className="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-cyan-600 to-pink-600 text-white font-medium hover:from-pink-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
-                      >
-                        Launch Harmony DApp
-                      </a>
-                    </div>
+                
+                <div className="sm:flex">
+                  {/* <div className="min-w-0 flex-1">
+                    <label htmlFor="email" className="sr-only">
+                      Email address
+                    </label>
+                    <input
+                      id="email"
+                      type="email"
+                      placeholder="Enter your email"
+                      className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
+                    />
+                  </div> */}
+                  <div className="mt-3 sm:mt-0 sm:ml-0">
+                    <a href="https://bsc.mochiswap.io"
+                      type="submit"
+                      className="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-pink-600 to-cyan-600 text-white font-medium hover:from-pink-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
+                    >
+                      Launch BSC DApp
+                    </a>
                   </div>
-               
-                </form>
+
+                  <div className="mt-3 sm:mt-0 sm:ml-3">
+                    <a href="https://harmony.mochiswap.io"
+                      type="submit"
+                      className="block w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-cyan-600 to-pink-600 text-white font-medium hover:from-pink-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
+                    >
+                      Launch Harmony DApp
+                    </a>
+                  </div>
+                </div>
+              
+              
               </div>
             </div>
           </div>
